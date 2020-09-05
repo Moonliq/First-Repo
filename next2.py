@@ -1,0 +1,11 @@
+n = [3, 5, 7, 9, 10.5]
+print(len(n))
+print(n)
+n.append('Python')
+print(n)
+print(len(n))
+print(n[0:1])
+print(n[-1])
+print(n[1:4])
+n.remove('Python')
+print(n)
